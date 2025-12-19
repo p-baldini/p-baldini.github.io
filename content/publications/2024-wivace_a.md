@@ -6,7 +6,7 @@ venue:          "XVIII International Workshop on Artificial Life and Evolutionar
 venue_link:     "https://events.info.unamur.be/wivace2024"
 pub_type:       "Conf"
 date:           "2024-09-11"
-article_link:   ""
+article_link:   "https://doi.org/10.1007/978-3-031-93631-9_13"
 article_pdf:    "media/articles/2024-wivace_a.pdf"
 slides_pdf:     "media/presentations/2024-wivace_a.pdf"
 tags:           ["conference", "article", "slides", "2024"]
@@ -14,7 +14,7 @@ featured:       true
 sitemap:
     priority :  0.8
 weight:         3
-alert_info:    "The article is currently under review. If accepted, the final version will be under embargo for 12 months."
+alert_info:     "The article is currently under embargo. It will be publicly available on July 2026."
 ---
 
 ### Abstract
@@ -27,3 +27,16 @@ The goal is to evolve the controller of the robots, inducing the formation of a 
 We perform experiments in simulation in increasingly complex arenas.
 The results show that evolved robots are capable of forming a connected chain and overall succeed in their mission.
 We also discuss limitations and improvements of the proposed approach.
+
+```
+@inproceedings{baldini2025cooperation,
+    title        = {Cooperation in Evolved Modular Soft Robots},
+    author       = {Baldini, Paolo and Braccini, Michele and Benvenuti, Filippo and Medvet, Eric and Roli, Andrea and Rusin, Francesco},
+    booktitle    = {Artificial Life and Evolutionary Computation},
+    booksubtitle = {18th Italian Workshop, WIVACE 2024, Namur, Belgium, September 11--13, 2024, Revised Selected Papers},
+    year         = {2025},
+    volume       = {2532},
+    pages        = {160--172},
+    publisher    = {Springer Nature Switzerland}
+}
+```

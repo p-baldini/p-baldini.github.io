@@ -1,5 +1,5 @@
 ---
-title:          "Cell–Cell interactions: how coupled boolean networks tend to criticality"
+title:          "Cell–Cell interactions: how coupled Boolean Networks tend to criticality"
 authors:        "Paolo Baldini, Andrea Roli, Michele Braccini"
 year:           "2024"
 venue:          "Artificial Life"
@@ -17,15 +17,18 @@ weight:         4
 
 ### Abstract
 
-Biological cells are usually operating in conditions characterized by intercellular signaling and interaction, which are supposed to strongly influence individual cell dynamics. In this work, we study the dynamics of interacting random Boolean networks, focusing on attractor properties and response to perturbations. We observe that the properties of isolated critical Boolean networks are substantially maintained also in interaction settings, while interactions bias the dynamics of chaotic and ordered networks toward that of critical cells. The increase in attractors observed in multicellular scenarios, compared to single cells, allows us to hypothesize that biological processes, such as ontogeny and cell differentiation, leverage interactions to modulate individual and collective cell responses.
+Biological cells are usually operating in conditions characterized by intercellular signaling and interaction, which are supposed to strongly influence individual cell dynamics.
+In this work, we study the dynamics of interacting random Boolean networks, focusing on attractor properties and response to perturbations.
+We observe that the properties of isolated critical Boolean networks are substantially maintained also in interaction settings, while interactions bias the dynamics of chaotic and ordered networks toward that of critical cells.
+The increase in attractors observed in multicellular scenarios, compared to single cells, allows us to hypothesize that biological processes, such as ontogeny and cell differentiation, leverage interactions to modulate individual and collective cell responses.
 
 ```
 @article{braccini2024cell,
-    title = {Cell–Cell Interactions: How Coupled Boolean Networks Tend to Criticality},
-    author = {Braccini, Michele and Baldini, Paolo and Roli, Andrea},
-    journal = {Artificial Life},
-    year = {2024},
-    pages = {1--13},
-    publisher={The MIT Press}
+    title     = {Cell–Cell Interactions: How Coupled Boolean Networks Tend to Criticality},
+    author    = {Braccini, Michele and Baldini, Paolo and Roli, Andrea},
+    journal   = {Artificial Life},
+    year      = {2024},
+    pages     = {1--13},
+    publisher = {The MIT Press}
 }
 ```
