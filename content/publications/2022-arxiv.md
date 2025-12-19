@@ -1,18 +1,17 @@
 ---
 title:          "Reservoir Computing in robotics: a review"
 authors:        "Paolo Baldini"
-year:           "2022"
 venue:          "arXiv"
 venue_link:     "https://arxiv.org"
 pub_type:       "Pre-print"
 date:           "2022-06-06"
-article_link:   "https://arxiv.org/abs/2206.11222"
+article_link:   "https://doi.org/10.48550/arXiv.2206.11222"
 article_pdf:    "media/articles/2022-arxiv.pdf"
 tags:           ["pre-print", "2022"]
 featured:       true
 sitemap:
     priority :  0.7
-weight:         2
+weight:         22022
 ---
 
 ### Abstract

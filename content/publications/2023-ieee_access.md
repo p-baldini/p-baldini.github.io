@@ -1,7 +1,6 @@
 ---
 title:          "On the performance of Online Adaptation of robots controlled by Nanowire Networks"
 authors:        "Paolo Baldini, Andrea Roli, Michele Braccini"
-year:           "2023"
 venue:          "IEEE Access"
 venue_link:     "https://ieeeaccess.ieee.org"
 pub_type:       "Jour"
@@ -12,7 +11,7 @@ tags:           ["journal", "article", "2023"]
 featured:       true
 sitemap:
     priority :  0.9
-weight:         4
+weight:         42023
 ---
 
 ### Abstract

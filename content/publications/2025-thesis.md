@@ -1,7 +1,6 @@
 ---
 title:          "Mechanisms for Online Adaptation in robots: a comparative study"
 authors:        "Benedetta Pacilli. Supervisor: Andrea Roli, Co-Supervisor: Paolo Baldini"
-year:           "2025"
 venue:          "Università di Bologna -- Alma Mater Studiorum"
 venue_link:     "https://www.unibo.it"
 pub_type:       "Thesis"
@@ -12,7 +11,7 @@ tags:           ["master thesis", "2025"]
 featured:       true
 sitemap:
     priority :  0.1
-weight:         1
+weight:         12025
 ---
 
 ### Abstract
@@ -23,11 +22,11 @@ We explore a range of adaptive controllers, including architectures inspired by 
 Our experimental results compare the performance of various mechanisms and adaptation policies, highlighting the trade-offs between reactivity, memory, and robustness in different online adaptation settings.
 
 ```
-@mastersthesis{baldini2022online,
-    title  = {Online adaptation of robots controlled by nanowire networks},
-    author = {Baldini, Paolo},
-    year   = {2022},
+@mastersthesis{pacilli2025mechanisms,
+    title  = {Mechanisms for online adaptation in robots: A comparative study},
+    author = {Pacilli, Benedetta},
+    year   = {2025},
     school = {University of Bologna},
-    note   = {Supervisor: Roli, Andrea, Co-Supervisor: Braccini, Michele}
+    note   = {Supervisor: Roli, Andrea, Co-Supervisor: Baldini, Paolo}
 }
 ```

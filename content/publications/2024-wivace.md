@@ -1,11 +1,10 @@
 ---
 title:          "An investigation of graceful degradation in Boolean Network robots subject to Online Adaptation"
 authors:        "Michele Braccini, Paolo Baldini, Andrea Roli"
-year:           "2024"
 venue:          "XVII International Workshop on Artificial Life and Evolutionary Computation (WIVACE), Venice, Italy"
 venue_link:     "https://www.unive.it/pag/47937"
 pub_type:       "Conf"
-date:           "2023-09-08"
+date:           "2024-03-30"
 article_link:   "https://link.springer.com/chapter/10.1007/978-3-031-57430-6_16"
 article_pdf:    "media/articles/2023-wivace.pdf"
 slides_pdf:     "media/presentations/2023-wivace.pdf"
@@ -13,7 +12,7 @@ tags:           ["conference", "article", "slides", "2023"]
 featured:       true
 sitemap:
     priority :  0.8
-weight:         3
+weight:         32024
 ---
 
 ### Abstract
