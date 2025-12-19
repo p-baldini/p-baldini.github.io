@@ -11,5 +11,4 @@ It should be therefore relatively short and sweet.
 
 -->
 
-The collection of publications I contributed to produce.
-Here, they are ordered by importance.
+The collection of publications I contributed to produce, ordered by the importance of the venue.
