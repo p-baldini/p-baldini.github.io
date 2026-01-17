@@ -1,5 +1,5 @@
 ---
-title: "Attended Conferences"
+title: "Conferences participation"
 ---
 
 {{<
