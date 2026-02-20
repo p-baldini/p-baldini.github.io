@@ -1,17 +1,17 @@
 ---
-title:          "Cell–Cell interactions: how coupled Boolean Networks tend to criticality"
-authors:        "Paolo Baldini, Andrea Roli, Michele Braccini"
-venue:          "Artificial Life"
-venue_link:     "https://direct.mit.edu/artl"
-pub_type:       "Jour"
-date:           "2025-02-25"
-article_link:   "https://doi.org/10.1162/artl_a_00444"
-article_pdf:    "media/articles/2024-artificial_life.pdf"
-tags:           ["journal", "article", "2024"]
-featured:       true
+title:              "Cell–Cell interactions: how coupled Boolean Networks tend to criticality"
+authors:            "Paolo Baldini, Andrea Roli, Michele Braccini"
+venue:              "Artificial Life"
+venue_link:         "https://direct.mit.edu/artl"
+class:              "Jour"
+date:               "2025-02-25"
+publication_link:   "https://doi.org/10.1162/artl_a_00444"
+manuscript_link:    "media/articles/2024-artificial_life.pdf"
+tags:               ["journal", "article", "2024"]
+featured:           true
 sitemap:
-    priority :  0.9
-weight:         420250225
+    priority :      0.9
+weight:             420250225
 ---
 
 ### Abstract

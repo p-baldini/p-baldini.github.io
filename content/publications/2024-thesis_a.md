@@ -1,17 +1,17 @@
 ---
-title:          "Self-assembly in voxel-based robots"
-authors:        "Filippo Benvenuti. Supervisor: Andrea Roli, Co-Supervisor: Eric Medvet, Michele Braccini, Paolo Baldini"
-venue:          "Università di Bologna — Alma Mater Studiorum"
-venue_link:     "https://www.unibo.it"
-pub_type:       "Thesis"
-date:           "2024-03-15"
-article_link:   "https://amslaurea.unibo.it/31044"
-article_pdf:    "media/thesis/2024-thesis_a.pdf"
-tags:           ["master thesis", "2024"]
-featured:       true
+title:              "Self-assembly in voxel-based robots"
+authors:            "Filippo Benvenuti. Supervisor: Andrea Roli, Co-Supervisor: Eric Medvet, Michele Braccini, Paolo Baldini"
+venue:              "Università di Bologna — Alma Mater Studiorum"
+venue_link:         "https://www.unibo.it"
+class:              "Thesis"
+date:               "2024-03-15"
+publication_link:   "https://amslaurea.unibo.it/31044"
+manuscript_link:    "media/thesis/2024-thesis_a.pdf"
+tags:               ["master thesis", "2024"]
+featured:           true
 sitemap:
-    priority :  0.1
-weight:         120240315
+    priority :      0.1
+weight:             120240315
 ---
 
 ### Abstract

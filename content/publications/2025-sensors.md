@@ -1,17 +1,17 @@
 ---
-title:          "Fault Recovery through Online Adaptation of Boolean Network robots"
-authors:        "Paolo Baldini, Michele Braccini, Andrea Roli"
-venue:          "Sensors"
-venue_link:     "https://www.mdpi.com/journal/sensors"
-pub_type:       "Jour"
-date:           "2025-09-19"
-article_link:   "https://doi.org/10.3390/s25185849"
-article_pdf:    "media/articles/2025-sensors.pdf"
-tags:           ["journal", "article", "2025"]
-featured:       true
+title:              "Fault Recovery through Online Adaptation of Boolean Network robots"
+authors:            "Paolo Baldini, Michele Braccini, Andrea Roli"
+venue:              "Sensors"
+venue_link:         "https://www.mdpi.com/journal/sensors"
+class:              "Jour"
+date:               "2025-09-19"
+publication_link:   "https://doi.org/10.3390/s25185849"
+manuscript_link:    "media/articles/2025-sensors.pdf"
+tags:               ["journal", "article", "2025"]
+featured:           true
 sitemap:
-    priority :  0.9
-weight:         420250919
+    priority :      0.9
+weight:             420250919
 ---
 
 ### Abstract

@@ -1,18 +1,18 @@
 ---
-title:          "Online Adaptation of robots controlled by Nanowire Networks: a preliminary study"
-authors:        "Paolo Baldini, Michele Braccini, Andrea Roli"
-venue:          "XVI International Workshop on Artificial Life and Evolutionary Computation (WIVACE), Gaeta, Italy"
-venue_link:     "https://wivace2022.ce.unipr.it"
-pub_type:       "Conf"
-date:           "2023-04-30"
-article_link:   "https://link.springer.com/chapter/10.1007/978-3-031-31183-3_14"
-article_pdf:    "media/articles/2022-wivace.pdf"
-slides_pdf:     "media/presentations/2022-wivace.pdf"
-tags:           ["conference", "article", "slides", "2022"]
-featured:       true
+title:              "Online Adaptation of robots controlled by Nanowire Networks: a preliminary study"
+authors:            "Paolo Baldini, Michele Braccini, Andrea Roli"
+venue:              "XVI International Workshop on Artificial Life and Evolutionary Computation (WIVACE), Gaeta, Italy"
+venue_link:         "https://wivace2022.ce.unipr.it"
+class:              "Conf"
+date:               "2023-04-30"
+publication_link:   "https://doi.org/10.1007/978-3-031-31183-3_14"
+manuscript_link:    "media/articles/2022-wivace.pdf"
+slides_link:        "media/presentations/2022-wivace.pdf"
+tags:               ["conference", "article", "slides", "2022"]
+featured:           true
 sitemap:
-    priority :  0.8
-weight:         320230430
+    priority :      0.8
+weight:             320230430
 ---
 
 ### Abstract

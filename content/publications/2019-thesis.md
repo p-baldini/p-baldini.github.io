@@ -1,18 +1,18 @@
 ---
-title:          "Progettazione e sviluppo di un modulo sensoristico e di comunicazione per la piattaforma robotica AlpaBot"
-authors:        "Paolo Baldini. Supervisor: Andrea Roli"
-venue:          "Università di Bologna — Alma Mater Studiorum"
-venue_link:     "https://www.unibo.it"
-pub_type:       "Thesis"
-date:           "2019-10-10"
-article_link:   "https://amslaurea.unibo.it/19108"
-article_pdf:    "media/thesis/2019-thesis.pdf"
-slides_pdf:     "media/presentations/2019-thesis.pdf"
-tags:           ["bachelor thesis", "slides", "2019"]
-featured:       true
+title:              "Progettazione e sviluppo di un modulo sensoristico e di comunicazione per la piattaforma robotica AlpaBot"
+authors:            "Paolo Baldini. Supervisor: Andrea Roli"
+venue:              "Università di Bologna — Alma Mater Studiorum"
+venue_link:         "https://www.unibo.it"
+class:              "Thesis"
+date:               "2019-10-10"
+publication_link:   "https://amslaurea.unibo.it/19108"
+manuscript_link:    "media/thesis/2019-thesis.pdf"
+slides_link:        "media/presentations/2019-thesis.pdf"
+tags:               ["bachelor thesis", "slides", "2019"]
+featured:           true
 sitemap:
-    priority :  0.1
-weight:         120191010
+    priority :      0.1
+weight:             120191010
 ---
 
 ### Abstract

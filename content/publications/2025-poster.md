@@ -1,17 +1,17 @@
 ---
-title:          "Adattamento Online di sistemi robotici"
-authors:        "Paolo Baldini"
-venue:          "Università di Bologna — Alma Mater Studiorum"
-venue_link:     "https://www.unibo.it"
-pub_type:       "Poster"
-date:           "2025-09-25"
-article_link:   "https://doi.org/10.6084/m9.figshare.30217519"
-article_pdf:    "media/presentations/2025-poster.pdf"
-tags:           ["poster", "2025"]
-featured:       true
+title:              "Adattamento Online di sistemi robotici"
+authors:            "Paolo Baldini"
+venue:              "Università di Bologna — Alma Mater Studiorum"
+venue_link:         "https://www.unibo.it"
+class:              "Poster"
+date:               "2025-09-25"
+publication_link:   "https://doi.org/10.6084/m9.figshare.30217519"
+manuscript_link:    "media/presentations/2025-poster.pdf"
+tags:               ["poster", "2025"]
+featured:           true
 sitemap:
-    priority :  0.1
-weight:         120250925
+    priority :      0.1
+weight:             120250925
 ---
 
 ### Description
