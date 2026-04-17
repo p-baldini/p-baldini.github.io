@@ -25,7 +25,7 @@ As a preliminary study, we analyze the response behavior of two small LLMs using
 ```
 @inproceedings{braccini2026llm,
     title        = {On the LLM Robustness in a Simulated Conversational XR Scenario: A Preliminary Semantic Analysis},
-    author       = {Braccini, M. and Aguzzi, G. and Baldini, P. and Roli, A.},
+    author       = {Braccini, Michele and Aguzzi, Gianluca and Baldini, Paolo and Roli, Andrea},
     booktitle    = {Image Analysis and Processing - ICIAP 2025 Workshops},
     booksubtitle = {23rd International Conference, Rome, Italy, September 15–19, 2025, Proceedings, Part II},
     year         = {2026},
