@@ -1,5 +1,5 @@
 ---
-title:              "Online Adaptation of robots controlled by Nanowire Networks"
+title:              "Online adaptation of robots controlled by nanowire networks"
 authors:            "Paolo Baldini. Supervisor: Andrea Roli, Co-Supervisor: Michele Braccini"
 venue:              "Università di Bologna — Alma Mater Studiorum"
 venue_link:         "https://www.unibo.it"
