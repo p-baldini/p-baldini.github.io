@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Paolo Baldini <paolo.baldini.phd@gmail.com>"]
+channels = ["conda-forge"]
+name = "p-baldini.github.io"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+hugo = ">=0.165.0,<0.166"

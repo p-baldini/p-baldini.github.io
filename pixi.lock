@@ -1,0 +1,37 @@
+version: 7
+platforms:
+- name: osx-arm64
+  virtual-packages:
+  - __unix=0=0
+  - __osx=13.0
+  - __archspec=0=m1
+environments:
+  default:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    packages:
+      osx-arm64:
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/hugo-0.165.0-h5d6070c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-23.1.0-h55c6f16_0.conda
+packages:
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/hugo-0.165.0-h5d6070c_0.conda
+  sha256: 23685b490c16af3615c364357ced45a619af94fcdbb5e7f6735c1b1fb58a211d
+  md5: 55f2c0828b7262d74fa8db2eae466782
+  depends:
+  - __osx >=12.3
+  - libcxx >=21
+  license: Apache-2.0
+  license_family: APACHE
+  run_exports: {}
+  size: 18063549
+  timestamp: 1787314019822
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-23.1.0-h55c6f16_0.conda
+  sha256: d3e5f0b767964af25ef81edffc002f8e822b1a5c55330da1ae3a857f70c4e4ee
+  md5: 5303ba06fab927399ed8dfb3227b0af8
+  depends:
+  - __osx >=11.0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  run_exports: {}
+  size: 575940
+  timestamp: 1787698697875
