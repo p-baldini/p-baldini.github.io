@@ -12,6 +12,7 @@ featured:           true
 sitemap:
     priority :      0.8
 weight:             320260102
+alert_info:         "The article is currently under embargo. It will be publicly available on January 2027." # TODO
 ---
 
 ### Abstract
