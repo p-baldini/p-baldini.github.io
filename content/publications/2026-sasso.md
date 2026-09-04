@@ -23,7 +23,7 @@ In this work, we characterise the macro-programming setting by leveraging the fo
 Specifically, we identify different types of macro-to-micro mechanisms, namely ways of mapping macroscopic specifications into local policies, allowing to conceptualise notable paradigms like aggregate and choreographic programming as specific instances of macro-programming.
 
 ```
-@article{casadei2026macro,
+@inproceedings{casadei2026macro,
     title        = {Macro-to-micro behavioural mappings in distributed systems: a characterisation on event structures},
     author       = {Casadei, Roberto and Baldini, Paolo and Niccolò, Castronuovo},
     booktitle    = {},
