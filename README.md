@@ -27,3 +27,7 @@ pixi shell
 ```
 
 At this point, you should be able to use `hugo serve` also without a system wide installation.
+
+## Maps
+
+In order to update your maps, login with github to https://umap.openstreetmap.fr -- Not .org!
