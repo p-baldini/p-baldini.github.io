@@ -1,11 +1,11 @@
 ---
-title:              "Online Adaptation of autonomous robots"
+title:              "Online adaptation of autonomous robots"
 authors:            "Paolo Baldini. Supervisor: Andrea Roli"
 venue:              "Università di Bologna — Alma Mater Studiorum"
 venue_link:         "https://www.unibo.it"
 class:              "Thesis"
 date:               "2026-03-25"
-publication_link:   "https://amslaurea.unibo.it/TODO"
+publication_link:   "https://amsdottorato.unibo.it/id/eprint/13083"
 manuscript_link:    "media/thesis/2026-thesis.pdf"
 slides_link:        "media/presentations/2026-thesis.pdf"
 tags:               ["Ph.D. thesis", "slides", "2026"]
@@ -33,7 +33,7 @@ We expect that the proposed solutions and considerations will support the future
 
 ```
 @phdthesis{baldini2026online,
-    title  = {Online Adaptation of autonomous robots},
+    title  = {Online adaptation of autonomous robots},
     author = {Baldini, Paolo},
     year   = {2026},
     school = {University of Bologna},
