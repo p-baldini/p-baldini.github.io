@@ -1,3 +1,8 @@
 # FOLDERS
 
-public/
+.pixi/*
+public/*
+
+# EXCEPTIONS
+
+!.pixi/config.toml
