@@ -1,31 +1,31 @@
-title =         "Paolo Baldini"
-baseURL =       "https://p-baldini.github.io/"
-theme =         [
-    "hugo-resume",
-    "osm"
+title =                         "Paolo Baldini"
+baseURL =                       "https://p-baldini.github.io/"
+theme =                         [
+            "hugo-resume",
+            "osm"
 ]
-languageCode =  "en-us"
-PygmentsCodeFences = true
+locale =                        "en-us"
+PygmentsCodeFences =            true
 PygmentsCodeFencesGuessSyntax = true
-PygmentsStyle = "monokai"
-enableGitInfo = false
+PygmentsStyle =                 "monokai"
+enableGitInfo =                 false
 
 [params]
-address =       "Forlì-Cesena, Emilia Romagna, Italy"
-email =         "paolo.baldini.phd@gmail.com"
-favicon =       "media/images/favicon.ico"
-firstName =     "Paolo"
-lastName =      "Baldini"
-profileImage =  "media/images/profile_picture.png"
-showQr =        false
-showContact =   false
-showConferences = true
-sections =      [
-#    "experience",
-#    "projects",
-    "publications",
-    "conferences",
-    "education",
+address =                       "Forlì-Cesena, Emilia Romagna, Italy"
+email =                         "paolo.baldini.phd@gmail.com"
+favicon =                       "media/images/favicon.ico"
+firstName =                     "Paolo"
+lastName =                      "Baldini"
+profileImage =                  "media/images/profile_picture.png"
+showQr =                        false
+showContact =                   false
+showConferences =               true
+sections =                      [
+#            "experience",
+#            "projects",
+            "publications",
+            "conferences",
+            "education",
 ]
 
 # [params.google]
@@ -34,19 +34,19 @@ sections =      [
 # trackerID = "XX-000000-00"
 
 [[params.handles]]
-link = "https://www.linkedin.com/in/baldini-paolo"
-name = "LinkedIn"
+link =                          "https://www.linkedin.com/in/baldini-paolo"
+name =                          "LinkedIn"
 
 [[params.handles]]
-link = "https://github.com/p-baldini"
-name = "GitHub"
+link =                          "https://github.com/p-baldini"
+name =                          "GitHub"
 
 [[params.handles]]
-link = "https://x.com/pbmandrab"
-name = "X / Twitter"
+link =                          "https://x.com/pbmandrab"
+name =                          "X / Twitter"
 
 [outputs]
-home = ["HTML", "JSON"]
+home =                          ["HTML", "JSON"]
 
 [taxonomies]
-tag = "tags"
+tag =                           "tags"
