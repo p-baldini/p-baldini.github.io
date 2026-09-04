@@ -7,7 +7,7 @@ class:              "Thesis"
 date:               "2026-03-25"
 publication_link:   "https://amsdottorato.unibo.it/id/eprint/13083"
 manuscript_link:    "media/thesis/2026-thesis.pdf"
-slides_link:        "media/presentations/2026-thesis.pdf"
+slides_link:        "media/presentations/2026-thesis_a.pdf"
 tags:               ["Ph.D. thesis", "slides", "2026"]
 featured:           true
 sitemap:
