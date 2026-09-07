@@ -7,6 +7,7 @@ class:              "Conf"
 date:               "2026-07-17" # TODO publication date
 publication_link:   "TODO"
 manuscript_link:    "media/articles/2026-sasso.pdf"
+slides_link:        "media/presentations/2026-sasso.pdf"
 tags:               ["conference", "article", "slides", "2026"]
 featured:           true
 sitemap:
