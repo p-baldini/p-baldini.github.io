@@ -1,5 +1,7 @@
 ---
 title: "Conferences participation"
+sitemap:
+  priority: 0.7
 ---
 
 {{<
