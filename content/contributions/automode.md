@@ -1,8 +1,7 @@
 ---
-title:              "AutoMoDe Lahmacun – Software design tool"
-short_description:  "An implementation of the AutoMoDe tool for the design of adaptable control software"
+title:              "AutoMoDe Lahmacun"
+short_description:  "An spin-off of the tool for the design of adaptable control software"
 community:          "IRIDIA Laboratory, Bruxelles, Belgium"
-link:               "https://github.com/p-baldini/AutoMoDe/tree/lahmacun"
 date:               "2025-02-26"
 featured:           true
 sitemap:

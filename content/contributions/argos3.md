@@ -1,8 +1,7 @@
 ---
-title:              "ARGoS3 simulator – Anaconda package"
+title:              "ARGoS3 simulator"
 short_description:  "The Anaconda package of the famous swarm-robotics simulator"
-community:          "Anaconda packages"
-link:               "https://anaconda.org/channels/pbaldini/packages/argos3/overview"
+community:          "Anaconda.org"
 date:               "2026-09-14"
 featured:           true
 sitemap:
