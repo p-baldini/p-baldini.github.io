@@ -26,7 +26,7 @@ Specifically, we identify different types of macro-to-micro mechanisms, namely w
 ```
 @inproceedings{casadei2026macro,
     title        = {Macro-to-micro behavioural mappings in distributed systems: a characterisation on event structures},
-    author       = {Casadei, Roberto and Baldini, Paolo and Niccolò, Castronuovo},
+    author       = {Casadei, Roberto and Baldini, Paolo and Castronuovo, Niccolò},
     booktitle    = {},
     booksubtitle = {},
     year         = {},
