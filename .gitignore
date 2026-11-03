@@ -1,8 +1,10 @@
 # FOLDERS
 
-.pixi/*
-public/*
+.pixi
+.vscode
+public
 
-# EXCEPTIONS
+# FILES
 
-!.pixi/config.toml
+**/.DS_Store
+.hugo_build.lock
