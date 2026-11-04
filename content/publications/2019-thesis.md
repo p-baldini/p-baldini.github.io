@@ -3,7 +3,7 @@ title:              "Progettazione e sviluppo di un modulo sensoristico e di com
 authors:            "Paolo Baldini. Supervisor: Andrea Roli"
 venue:              "Università di Bologna — Alma Mater Studiorum"
 venue_link:         "https://www.unibo.it"
-class:              "Thesis"
+class:              "thesis"
 date:               "2019-10-10"
 publication_link:   "https://amslaurea.unibo.it/19108"
 manuscript_link:    "media/thesis/2019-thesis.pdf"

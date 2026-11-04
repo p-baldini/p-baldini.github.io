@@ -3,7 +3,7 @@ title:              "Mechanisms for Online Adaptation in robots: a comparative s
 authors:            "Benedetta Pacilli. Supervisor: Andrea Roli, Co-Supervisor: Paolo Baldini"
 venue:              "Università di Bologna — Alma Mater Studiorum"
 venue_link:         "https://www.unibo.it"
-class:              "Thesis"
+class:              "thesis"
 date:               "2025-07-17"
 publication_link:   "https://amslaurea.unibo.it/35560"
 manuscript_link:    "media/thesis/2025-thesis.pdf"

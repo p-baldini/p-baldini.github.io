@@ -3,7 +3,7 @@ title:              "On the LLM Robustness in a Simulated Conversational XR Scen
 authors:            "Michele Braccini, Gianluca Aguzzi, Paolo Baldini, Andrea Roli"
 venue:              "ICIAP 2025 — 23rd International Conference on Image Analysis and Processing / HUARL 2025 — The 1st International Workshop on Humans in the eXtended Artificial Intelligence Loop, Rome, Italy"
 venue_link:         "https://sites.google.com/view/huarl-iciap-2025"
-class:              "Conf"
+class:              "conf"
 date:               "2026-01-02"
 publication_link:   "https://doi.org/10.1007/978-3-032-11317-7_51"
 manuscript_link:    "media/articles/2026-huarl.pdf"

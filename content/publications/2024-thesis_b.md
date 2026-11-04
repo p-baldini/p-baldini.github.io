@@ -3,7 +3,7 @@ title:              "Evolution in materia: esperimenti con le Nanowire Networks"
 authors:            "Noemi Valentini. Supervisor: Andrea Roli, Co-Supervisor: Eric Medvet, Michele Braccini, Paolo Baldini"
 venue:              "Università di Bologna — Alma Mater Studiorum"
 venue_link:         "https://www.unibo.it"
-class:              "Thesis"
+class:              "thesis"
 date:               "2024-07-23"
 publication_link:   "https://amslaurea.unibo.it/32446"
 manuscript_link:    "media/thesis/2024-thesis_b.pdf" # TODO -- DRAFT

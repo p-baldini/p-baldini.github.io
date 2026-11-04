@@ -3,7 +3,7 @@ title:              "On the performance of Online Adaptation of robots controlle
 authors:            "Paolo Baldini, Andrea Roli, Michele Braccini"
 venue:              "IEEE Access"
 venue_link:         "https://ieeeaccess.ieee.org"
-class:              "Jour"
+class:              "jour"
 date:               "2023-12-19"
 publication_link:   "https://doi.org/10.1109/ACCESS.2023.3345224"
 manuscript_link:    "media/articles/2023-ieee_access.pdf"

@@ -3,7 +3,7 @@ title:              "Emergent dynamics in heterogeneous life-like Cellular Autom
 authors:            "Aarati Shrestha, Felix Reimers, Sanyam Jain, Paolo Baldini, Michele Braccini, Andrea Roli, Stefano Nichele"
 venue:              "XVIII International Workshop on Artificial Life and Evolutionary Computation (WIVACE), Namur, Belgium"
 venue_link:         "https://events.info.unamur.be/wivace2024"
-class:              "Conf"
+class:              "conf"
 date:               "2025-07-22"
 publication_link:   "https://doi.org/10.1007/978-3-031-93631-9_1"
 manuscript_link:    "media/articles/2024-wivace_b.pdf"

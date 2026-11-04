@@ -3,7 +3,7 @@ title:              "Instinct and reflex inspired safety mechanisms for adaptive
 authors:            "Eleonora Bertoni. Supervisor: Andrea Roli, Co-Supervisor: Paolo Baldini, Michele Braccini"
 venue:              "Università di Bologna — Alma Mater Studiorum"
 venue_link:         "https://www.unibo.it"
-class:              "Thesis"
+class:              "thesis"
 date:               "2026-07-16"
 publication_link:   "https://amslaurea.unibo.it/39326"
 manuscript_link:    "media/thesis/2026-thesis_b.pdf"

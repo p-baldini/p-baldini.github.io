@@ -3,7 +3,7 @@ title:              "Fault Recovery through Online Adaptation of Boolean Network
 authors:            "Paolo Baldini, Michele Braccini, Andrea Roli"
 venue:              "Sensors"
 venue_link:         "https://www.mdpi.com/journal/sensors"
-class:              "Jour"
+class:              "jour"
 date:               "2025-09-19"
 publication_link:   "https://doi.org/10.3390/s25185849"
 manuscript_link:    "media/articles/2025-sensors.pdf"

@@ -3,7 +3,7 @@ title:              "Cell–Cell interactions: how coupled Boolean Networks tend
 authors:            "Michele Braccini, Paolo Baldini, Andrea Roli"
 venue:              "Artificial Life"
 venue_link:         "https://direct.mit.edu/artl"
-class:              "Jour"
+class:              "jour"
 date:               "2025-02-25"
 publication_link:   "https://doi.org/10.1162/artl_a_00444"
 manuscript_link:    "media/articles/2024-artificial_life.pdf"

@@ -3,7 +3,7 @@ title:              "An investigation of graceful degradation in Boolean Network
 authors:            "Michele Braccini, Paolo Baldini, Andrea Roli"
 venue:              "XVII International Workshop on Artificial Life and Evolutionary Computation (WIVACE), Venice, Italy"
 venue_link:         "https://www.unive.it/pag/47937"
-class:              "Conf"
+class:              "conf"
 date:               "2024-03-30"
 publication_link:   "https://doi.org/10.1007/978-3-031-57430-6_16"
 manuscript_link:    "media/articles/2023-wivace.pdf"
