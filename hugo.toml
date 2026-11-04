@@ -1,14 +1,12 @@
 title =                         "Paolo Baldini"
 baseURL =                       "https://p-baldini.github.io/"
-theme =                         [
-            "hugo-resume",
-            "osm"
-]
+theme =                         [ "hugo-resume", "osm" ]
 locale =                        "en-us"
 PygmentsCodeFences =            true
 PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle =                 "monokai"
 enableGitInfo =                 false
+enableRobotsTXT =               true
 
 [params]
 address =                       "Forlì-Cesena, Emilia Romagna, Italy"
@@ -20,14 +18,31 @@ profileImage =                  "media/images/profile_picture.png"
 showQr =                        false
 showContact =                   false
 showConferences =               true
-sections =                      [
-#            "experience",
-#            "projects",
-            "publications",
-            "contributions",
-            "conferences",
-            "education",
+sections =                      [ "publications", "contributions", "conferences", "education" ] # "experience", "projects"
+
+# Used by search engines and LLMs: page <title>, meta description and JSON-LD (see the theme's seo partials)
+headline =                      "Post-doc researcher in AI and Adaptive Robotics, Adjunct Professor, University of Bologna"
+description =                   "Paolo Baldini is a researcher at the University of Bologna working on artificial intelligence, adaptive robotics and multi-agent / collective systems, with publications on online adaptation of robots, Boolean networks, reservoir computing, nanowire networks and large language models."
+jobTitle =                      "Post-doc researcher, Adjunct Professor"
+knowsAbout =                    [ "Artificial Intelligence", "Adaptive Robotics", "Online Adaptation", "Multi-Agent Systems", "Collective Systems", "Complex Systems", "Boolean Networks", "Reservoir Computing", "Unconventional Computing", "Large Language Models", "Gene Regulatory Networks", "Macro-programming" ]
+
+# Academic profiles, linked to this site in the JSON-LD "sameAs" (together with the handles below)
+sameAs =                        [
+            "https://orcid.org/0000-0002-3625-5414",
+            "https://www.semanticscholar.org/author/2095684681",
+            "https://openalex.org/A5044031617",
+            "https://scholar.google.com/citations?user=vUmVyzMAAAAJ",
+            "https://dblp.org/pid/86/6789",
 ]
+
+[params.affiliation]
+name =                          "University of Bologna"
+url =                           "https://www.unibo.it/en"
+
+# Site ownership verification codes for Google Search Console and Bing Webmaster Tools
+# [params.verification]
+# google =                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+# bing =                          "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # [params.google]
 
@@ -46,8 +61,29 @@ name =                          "GitHub"
 link =                          "https://x.com/pbmandrab"
 name =                          "X / Twitter"
 
+# "llms" and "llmsfull" are the theme's plain-text summary of the site for LLMs (https://llmstxt.org), the
+# latter with the full text of the publications in assets/fulltext
 [outputs]
-home =                          ["HTML", "JSON"]
+home =                          ["HTML", "JSON", "llms", "llmsfull"]
 
 [taxonomies]
 tag =                           "tags"
+
+# Math in Markdown ($...$ and $$...$$), as in the full text of the publications: Goldmark leaves it as
+# written, for MathJax (see the theme's _markup/render-passthrough.html)
+[markup.goldmark.extensions.passthrough]
+enable =                        true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block =                         [["$$", "$$"]]
+inline =                        [["$", "$"]]
+
+# Expose the hosted PDFs to the theme too, so that each publication page can publish its
+# manuscript next to itself: Google Scholar only accepts PDFs in the same folder as the abstract
+[[module.mounts]]
+source =                        "assets"
+target =                        "assets"
+
+[[module.mounts]]
+source =                        "static/media"
+target =                        "assets/media"
