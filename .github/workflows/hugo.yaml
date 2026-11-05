@@ -1,18 +1,23 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+# Build and deploy the Hugo site to GitHub Pages.
+# On schedule / manual runs, the theme submodules are first moved to their
+# latest commit; if the site builds, the bump is committed to master.
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the default branch (uses the pinned theme)
   push:
     branches:
       - master
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Manual run (Actions tab or `gh workflow run hugo.yaml`): update theme + deploy
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+  # Daily check for theme updates (deploys only if something changed)
+  schedule:
+    - cron: "0 4 * * *"
+
 permissions:
-  contents: read
+  contents: write # push the submodule bump
   pages: write
   id-token: write
 
@@ -31,6 +36,8 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.update.outputs.changed }}
     env:
       HUGO_VERSION: 0.141.0
     steps:
@@ -45,6 +52,17 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Update theme submodules
+        id: update
+        if: github.event_name != 'push'
+        run: |
+          git submodule update --remote
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git submodule status
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -60,13 +78,23 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      # Only reached if the build succeeded. A push made with GITHUB_TOKEN
+      # does not re-trigger this workflow, so there is no loop.
+      - name: Commit theme update
+        if: steps.update.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "theme: update submodules"
+          git push
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  # Deployment job
+  # Deployment job (skipped on scheduled runs with no theme changes)
   deploy:
+    if: github.event_name != 'schedule' || needs.build.outputs.changed == 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
