@@ -1,0 +1,9 @@
+version: 2
+updates:
+  # Keep theme submodules (themes/hugo-resume, themes/osm) up to date.
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "theme"
