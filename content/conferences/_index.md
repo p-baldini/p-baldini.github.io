@@ -6,6 +6,7 @@ sitemap:
 
 {{<
     openstreetmap mapName="pbaldini-attended-conferences_1126689"
+    umapURL="https://umap.openstreetmap.fr"
     searchControl="false"
     datalayersControl="false"
     embedControl="false"
