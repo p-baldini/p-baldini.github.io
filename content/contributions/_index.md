@@ -11,4 +11,4 @@ It should be therefore relatively short and sweet.
 
 -->
 
-A list of contributions that I have made to various software communities.
+A list of contributions that I have made to various research projects and software communities.
