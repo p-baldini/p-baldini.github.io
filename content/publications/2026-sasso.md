@@ -4,15 +4,15 @@ authors:            "Roberto Casadei, Paolo Baldini, Niccolò Castronuovo"
 venue:              "Fourth International Workshop on Sustainability and Scalability of Self-Organisation (SaSSO), Cesena, Italy"
 venue_link:         "https://cosocials.org/sasso-2026/"
 class:              "conf"
-date:               "2026-07-17" # TODO publication date
-publication_link:   "TODO"
+date:               "2026-11-12"
+publication_link:   "https://doi.org/10.1109/ACSOS-C70952.2026.00044"
 manuscript_link:    "media/articles/2026-sasso.pdf"
 slides_link:        "media/presentations/2026-sasso.pdf"
 tags:               ["conference", "article", "slides", "2026"]
 featured:           true
 sitemap:
     priority :      0.8
-weight:             320260907
+weight:             320261112
 ---
 
 ### Abstract
@@ -27,12 +27,9 @@ Specifically, we identify different types of macro-to-micro mechanisms, namely w
 @inproceedings{casadei2026macro,
     title        = {Macro-to-micro behavioural mappings in distributed systems: a characterisation on event structures},
     author       = {Casadei, Roberto and Baldini, Paolo and Castronuovo, Niccolò},
-    booktitle    = {},
-    booksubtitle = {},
-    year         = {},
-    volume       = {},
-    number       = {},
-    pages        = {},
-    publisher    = {}
+    booktitle    = {2026 IEEE International Conference on Autonomic Computing and Self-Organizing Systems Companion (ACSOS-C)},
+    year         = {2026},
+    pages        = {142--147},
+    publisher    = {Institute of Electrical and Electronics Engineers}
 }
 ```
