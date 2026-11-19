@@ -40,8 +40,8 @@ name =                          "University of Bologna"
 url =                           "https://www.unibo.it/en"
 
 # Site ownership verification codes for Google Search Console and Bing Webmaster Tools
-# [params.verification]
-# google =                        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+[params.verification]
+google =                        "Gw9shXAF0GNqXyGRUe0DPlcYJ_8386biKNZl3_87cHA"
 # bing =                          "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # [params.google]
