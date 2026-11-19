@@ -3,7 +3,7 @@ title:              "Macro-to-micro behavioural mappings in distributed systems:
 authors:            "Roberto Casadei, Paolo Baldini, Niccolò Castronuovo"
 venue:              "Fourth International Workshop on Sustainability and Scalability of Self-Organisation (SaSSO), Cesena, Italy"
 venue_link:         "https://cosocials.org/sasso-2026/"
-class:              "conf"
+class:              "conference"
 date:               "2026-11-12"
 publication_link:   "https://doi.org/10.1109/ACSOS-C70952.2026.00044"
 manuscript_link:    "media/articles/2026-sasso.pdf"
