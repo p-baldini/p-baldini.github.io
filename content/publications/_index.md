@@ -2,6 +2,8 @@
 title: Publications
 sitemap:
   priority: 0.9
+cascade:
+  outputs: ["HTML", "markdown"] # Every publication has a Markdown version too (index.html.md), with its full text when available
 ---
 <!--
 
