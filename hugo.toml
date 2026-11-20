@@ -87,3 +87,8 @@ target =                        "assets"
 [[module.mounts]]
 source =                        "static/media"
 target =                        "assets/media"
+
+# Keep the quotes around attribute values when minifying (hugo --minify): Bing Webmaster Tools may not find
+# its verification tag without them (<meta name=msvalidate.01 ...>)
+[minify.tdewolff.html]
+keepQuotes =                    true
